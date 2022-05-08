@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Iframe Document</title>
+  <style>
+    #menu div {
+      background-color: orangered;
+
+      padding: 10px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    #menu {
+      flex: 1;
+      padding: 5px;
+      border-right: 2px solid black;
+    }
+
+    #iframe {
+      flex: 4;
+    }
+
+    iframe {
+      padding: 5px;
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="menu">
+      <div>
+        <a href="./Mobile.html" target="rightPanel">Mobile</a>
+      </div>
+
+      <div>
+        <a href="./laptop.html" target="rightPanel">Laptop</a>
+      </div>
+      <div>
+        <a href="./Clothes.html" target="rightPanel">Clothes</a>
+      </div>
+      <div>
+        <a href="./KItchen.html" target="rightPanel">Kitchen</a>
+      </div>
+      <div>
+        <a href="./Car.html" target="rightPanel">Car</a>
+      </div>
+    </div>
+
+    <div id="iframe">
+      <iframe name="rightPanel"> </iframe>
+    </div>
+  </div>
+</body>
+
+</html>
