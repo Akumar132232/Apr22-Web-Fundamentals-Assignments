@@ -1,0 +1,10 @@
+4. Check if a number is odd or even using if-else statement.
+Ams:-  let num6 = 15;
+        if(num6%2==0)
+          {
+              console.log(num6+" is an Even number")
+          }
+        else
+          {
+              console.log(num6+" is an Odd number")
+          }
