@@ -1,0 +1,5 @@
+2. What is the difference between null , undefined and not defined?
+Ans:- 1)undefined  --> haven't assigned any value to the variable
+      2)not-defined --> when variable is not present in the code 
+      3)null --> empty or unknown value.
+ 
