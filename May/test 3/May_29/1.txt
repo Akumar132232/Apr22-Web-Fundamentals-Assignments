@@ -1,0 +1,22 @@
+ 1. Explain difference between var/ let const by giving examples.
+Ans: --> var	            
+        -can re declare     
+        -can re initialize
+        ex:- b=20
+             console.log(b)
+	     
+             b=30
+             console.log(b)
+	
+      --> let
+        -can re initilize/assign 
+        -can't re declare 
+        ex:-let b;
+            console.log(b)
+	
+      --> const
+      	-in case of const dclaration and initialization should be done in the same line
+	      -can't re-declare in the case of const                                          
+      	-can't re-initialize 
+      	ex:- const pi=3.14
+	       console.log(pi) 
