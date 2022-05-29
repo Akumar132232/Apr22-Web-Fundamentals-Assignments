@@ -1,0 +1,17 @@
+3.What is initialisation and declaration? Check if for a given length and breadth, is the shape a square or rectangle. (eg: Let's say the length is 10 and breadth is 20, and then check).
+Ans:-   Declaration:-
+	      -The process of Creating a variable in JavaScript is called declaration.
+	
+      	Initilazation:-
+	      -assigning an initial value to a variable
+
+        let l=10
+        let b=10
+        if(l==b)
+        {
+            console.log("The given shape is square")
+        }
+        else
+        {
+            console.log("The given shape is Rectangle")
+        }
